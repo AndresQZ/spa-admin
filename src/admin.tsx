@@ -1,11 +1,5 @@
 import React from "react";
-
-// @ts-ignore
-import {
-  auth$ as auth,
-  sendData,
-  sharedData$,
-} from "@web-taxco/spa-shared-state";
+import {sendData} from "@web-taxco/spa-shared-state";
 import { useHistory } from "react-router-dom";
 
 function Admin(props: any) {

@@ -7,7 +7,7 @@ import { Admin } from "./admin";
 export default function Root(props) {
   React.useEffect(() => {
     const sharedDataSubcription = sharedData$.subscribe((data) => {
-      // console.log("inside sharedDataSubcription , spa-admin", data);
+       console.log("inside sharedDataSubcription , spa-admin", data);
     });
 
     return () => {
